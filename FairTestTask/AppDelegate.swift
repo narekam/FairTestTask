@@ -15,7 +15,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
+        let searchVC = storyboard.instantiateViewController(withIdentifier: "NFSearchListViewController")
+        let rootNavigationVC = UINavigationController.init(rootViewController: searchVC)
+        rootNavigationVC.navigationBar.isHidden = true
+        
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        self.window?.rootViewController = rootNavigationVC
+        self.window?.makeKeyAndVisible()
+        
         return true
     }
 

@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  FairTestTask
+
+  Created by Narek Fidanyan on 10/26/18.
+  Copyright © 2018 Narek Fidanyan. All rights reserved.
+*/
+
+
+
+"k_address_label" = "Search for pickup address";
+"k_pickup_date" = "Pickup date";
+"k_dropoff_date" = "Dropoff date";
+"k_search" = "Search";
+"k_please_select" = "Please, select";
+"k_done" = "Done";
+"k_ok" = "OK";
+"k_fill_all_fields" = "Please, fill in all fields";
+
+
+"k_sort_company" = "Company";
+"k_sort_distance" = "Distance";
+"k_sort_price" = "Price";
+
+"k_" = "";

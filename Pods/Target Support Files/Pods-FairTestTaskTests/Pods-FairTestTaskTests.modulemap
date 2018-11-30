@@ -1,0 +1,6 @@
+framework module Pods_FairTestTaskTests {
+  umbrella header "Pods-FairTestTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
